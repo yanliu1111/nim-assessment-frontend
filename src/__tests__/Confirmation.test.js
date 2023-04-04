@@ -1,11 +1,11 @@
 // test if a file called Confirmation.js exists
 const fs = require("fs");
-import { render, screen } from "@testing-library/react";
+const { render, screen } = require("@testing-library/react");
 import "@testing-library/jest-dom";
 
-import ConfirmationPage from "../components/ConfirmationPage";
-import OrderConfirmation from "../components/OrderConfirmation";
-import { testOrder } from "../sampleTestData";
+const ConfirmationPage = require("../components/ConfirmationPage");
+const OrderConfirmation = require("../components/OrderConfirmation");
+const { testOrder } = require("../sampleTestData");
 
 describe("files exist", () => {
   it("ConfirmationPage.jsx should exist", () => {

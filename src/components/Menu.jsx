@@ -1,6 +1,6 @@
-import React from "react";
-import MenuItem from "./MenuItem";
-import styles from "./styles/Order.module.css";
+const React = require("react");
+const MenuItem = require("./MenuItem");
+const styles = require("./styles/Order.module.css");
 
 function Menu({ menuItems, order, setOrder }) {
   const addItemToOrder = (item) => {
@@ -29,4 +29,4 @@ function Menu({ menuItems, order, setOrder }) {
   );
 }
 
-export default Menu;
+module.exports = Menu;

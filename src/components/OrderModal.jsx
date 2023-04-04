@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styles from "./styles/OrderModal.module.css";
+const React, { useState } = require("react");
+const styles = require("./styles/OrderModal.module.css");
 
 function OrderModal({ order, setOrderModal }) {
   const [name, setName] = useState("");
@@ -101,4 +101,4 @@ function OrderModal({ order, setOrderModal }) {
   );
 }
 
-export default OrderModal;
+module.exports = OrderModal;

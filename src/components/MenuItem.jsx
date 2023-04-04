@@ -1,4 +1,4 @@
-import React from "react";
+const React = require("react");
 
 function MenuItem({ item, addItemToOrder }) {
   return (
@@ -19,4 +19,4 @@ function MenuItem({ item, addItemToOrder }) {
   );
 }
 
-export default MenuItem;
+module.exports = MenuItem;

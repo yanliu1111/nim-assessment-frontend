@@ -1,5 +1,5 @@
-import AppRoutes from "./AppRoutes";
-import Nav from "./components/Nav";
+const AppRoutes = require("./AppRoutes");
+const Nav = require("./components/Nav");
 
 function App() {
   return (
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+module.exports = App;
