@@ -1,6 +1,6 @@
-const React = require("react");
-const { Routes, Route } = require("react-router-dom");
-const Main = require("./components/Main");
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
 
 function AppRoutes() {
   return (
@@ -10,4 +10,4 @@ function AppRoutes() {
   );
 }
 
-module.exports = AppRoutes;
+export default AppRoutes;

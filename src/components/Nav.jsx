@@ -1,6 +1,6 @@
-const React = require("react");
-const { Link, useLocation } = require("react-router-dom");
-const styles = require("./styles/Nav.module.css");
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import styles from "./styles/Nav.module.css";
 
 function Nav() {
   const location = useLocation();
@@ -22,4 +22,4 @@ function Nav() {
   );
 }
 
-module.exports = Nav;
+export default Nav;

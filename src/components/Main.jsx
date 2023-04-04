@@ -1,8 +1,8 @@
-const React, { useEffect, useState } = require("react");
-const Menu = require("./Menu");
-const Order = require("./Order");
-const OrderModal = require("./OrderModal");
-const styles = require("./styles/Order.module.css");
+import React, { useState, useEffect } from "react";
+import Menu from "./Menu";
+import Order from "./Order";
+import OrderModal from "./OrderModal";
+import styles from "./styles/Order.module.css";
 
 function Main() {
   const [menuItems, setMenuItems] = useState([]);
@@ -35,4 +35,4 @@ function Main() {
   );
 }
 
-module.exports = Main;
+export default Main;

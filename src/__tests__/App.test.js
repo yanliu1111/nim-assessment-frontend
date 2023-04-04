@@ -1,8 +1,8 @@
 // test Menu component with passed in menuItems
 import "@testing-library/jest-dom";
-const { render, screen } = require("@testing-library/react");
-const Menu = require("../components/Menu");
-const { testMenuItems } = require("../sampleTestData");
+import { render, screen } from "@testing-library/react";
+import Menu from "../components/Menu";
+import { testMenuItems } from "../sampleTestData";
 
 test("renders menu items", () => {
   render(<Menu menuItems={testMenuItems} />);

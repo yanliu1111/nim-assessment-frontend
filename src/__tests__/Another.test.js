@@ -1,9 +1,9 @@
-const React = require("react");
-const ReactDOM = require("react-dom/client");
+import React from "react";
+import ReactDOM from "react-dom/client";
 global.IS_REACT_ACT_ENVIRONMENT = true;
-const { act } = require("react-dom/test-utils");
-const ConfirmationPage = require("../components/ConfirmationPage");
-const { testOrder } = require("../sampleTestData");
+import { act } from "react-dom/test-utils";
+import ConfirmationPage from "../components/ConfirmationPage";
+import { testOrder } from "../sampleTestData";
 
 let container = null;
 beforeEach(() => {

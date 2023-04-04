@@ -1,5 +1,5 @@
-const React = require("react");
-const styles = require("./styles/Order.module.css");
+import React from "react";
+import styles from "./styles/Order.module.css";
 
 function Order({ order, setOrderModal }) {
   return (
@@ -44,4 +44,4 @@ function Order({ order, setOrderModal }) {
   );
 }
 
-module.exports = Order;
+export default Order;
